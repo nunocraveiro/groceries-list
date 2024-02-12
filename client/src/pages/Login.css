@@ -1,0 +1,33 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin: auto;
+    width: 40%;
+    height: calc(100vh - 2rem);
+    /* border: 1px solid white; */
+    overflow: hidden;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.login button {
+    margin-left: auto;
+}
+
+.login input {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.login p {
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}

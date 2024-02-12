@@ -1,0 +1,52 @@
+.home {
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+    width: 75%;
+}
+
+.task_add {
+    font-size: 2.5rem;
+}
+
+.list_card {
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 12rem;
+    height: 12rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.list_card:hover {
+    opacity: 0.8;
+}
+
+.list_name {
+    font-size: 1.2rem;
+    align-self: center;
+    width: 10rem;
+}
+
+.add_list {
+    margin-top: 1rem;
+    position: relative;
+}
+
+.list_delete {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,40 @@
+.user_container {
+    position: absolute;
+    right: 1.5rem;
+    top: 0.9rem;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user p {
+    margin-right: 0.5rem;
+}
+
+.account {
+    font-size: 2.5rem;
+    cursor: pointer;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+.logout {
+    position: absolute;
+    right: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 5rem;
+    height: 2.5rem;
+    border: 1px solid white;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
